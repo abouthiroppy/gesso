@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		17521C4CEFF91264B462283F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A816DB40E9B40545F6E54CB5 /* libPods.a */; };
 		768D89D51B0CB33900A2B543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D89D41B0CB33900A2B543 /* AppDelegate.swift */; };
-		768D89D71B0CB33900A2B543 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D89D61B0CB33900A2B543 /* FirstViewController.swift */; };
-		768D89D91B0CB33900A2B543 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D89D81B0CB33900A2B543 /* SecondViewController.swift */; };
 		768D89DC1B0CB33900A2B543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768D89DA1B0CB33900A2B543 /* Main.storyboard */; };
 		768D89DE1B0CB33900A2B543 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768D89DD1B0CB33900A2B543 /* Images.xcassets */; };
 		768D89E11B0CB33900A2B543 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768D89DF1B0CB33900A2B543 /* LaunchScreen.xib */; };
 		768D89ED1B0CB33900A2B543 /* GessoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D89EC1B0CB33900A2B543 /* GessoTests.swift */; };
+		768D89FF1B0CBAED00A2B543 /* GESArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D89FE1B0CBAED00A2B543 /* GESArticleViewController.swift */; };
+		768D8A011B0CBB5400A2B543 /* GESPopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D8A001B0CBB5400A2B543 /* GESPopularViewController.swift */; };
+		768D8A031B0CBB7300A2B543 /* GESSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D8A021B0CBB7300A2B543 /* GESSettingViewController.swift */; };
+		768D8A051B0CBB8A00A2B543 /* GESBlogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D8A041B0CBB8A00A2B543 /* GESBlogListViewController.swift */; };
+		768D8A071B0CBBA700A2B543 /* GESFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D8A061B0CBBA700A2B543 /* GESFavoriteViewController.swift */; };
+		768D8A0C1B0CC21200A2B543 /* GESArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D8A0A1B0CC21100A2B543 /* GESArticleTableViewCell.swift */; };
+		768D8A0D1B0CC21200A2B543 /* GESArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 768D8A0B1B0CC21200A2B543 /* GESArticleTableViewCell.xib */; };
+		768D8A0F1B0CC64500A2B543 /* GESDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D8A0E1B0CC64500A2B543 /* GESDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,21 @@
 		768D89CF1B0CB33900A2B543 /* Gesso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D89D31B0CB33900A2B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		768D89D41B0CB33900A2B543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		768D89D61B0CB33900A2B543 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		768D89D81B0CB33900A2B543 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		768D89DB1B0CB33900A2B543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		768D89DD1B0CB33900A2B543 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		768D89E01B0CB33900A2B543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		768D89E61B0CB33900A2B543 /* GessoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GessoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768D89EB1B0CB33900A2B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		768D89EC1B0CB33900A2B543 /* GessoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GessoTests.swift; sourceTree = "<group>"; };
+		768D89F61B0CB7C100A2B543 /* Gesso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gesso-Bridging-Header.h"; sourceTree = "<group>"; };
+		768D89FE1B0CBAED00A2B543 /* GESArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESArticleViewController.swift; sourceTree = "<group>"; };
+		768D8A001B0CBB5400A2B543 /* GESPopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESPopularViewController.swift; sourceTree = "<group>"; };
+		768D8A021B0CBB7300A2B543 /* GESSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESSettingViewController.swift; sourceTree = "<group>"; };
+		768D8A041B0CBB8A00A2B543 /* GESBlogListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESBlogListViewController.swift; sourceTree = "<group>"; };
+		768D8A061B0CBBA700A2B543 /* GESFavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESFavoriteViewController.swift; sourceTree = "<group>"; };
+		768D8A0A1B0CC21100A2B543 /* GESArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESArticleTableViewCell.swift; sourceTree = "<group>"; };
+		768D8A0B1B0CC21200A2B543 /* GESArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GESArticleTableViewCell.xib; sourceTree = "<group>"; };
+		768D8A0E1B0CC64500A2B543 /* GESDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GESDetailViewController.swift; sourceTree = "<group>"; };
 		A3DED6E8741AA349ADBBCF58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A816DB40E9B40545F6E54CB5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,13 +99,14 @@
 		768D89D11B0CB33900A2B543 /* Gesso */ = {
 			isa = PBXGroup;
 			children = (
-				768D89D41B0CB33900A2B543 /* AppDelegate.swift */,
-				768D89D61B0CB33900A2B543 /* FirstViewController.swift */,
-				768D89D81B0CB33900A2B543 /* SecondViewController.swift */,
+				768D8A081B0CC1BD00A2B543 /* Views */,
+				768D89FD1B0CBA4A00A2B543 /* ViewControllers */,
+				768D89FA1B0CB83200A2B543 /* AppDelegate */,
 				768D89DA1B0CB33900A2B543 /* Main.storyboard */,
 				768D89DD1B0CB33900A2B543 /* Images.xcassets */,
 				768D89DF1B0CB33900A2B543 /* LaunchScreen.xib */,
 				768D89D21B0CB33900A2B543 /* Supporting Files */,
+				768D89F61B0CB7C100A2B543 /* Gesso-Bridging-Header.h */,
 			);
 			path = Gesso;
 			sourceTree = "<group>";
@@ -120,6 +134,44 @@
 				768D89EB1B0CB33900A2B543 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768D89FA1B0CB83200A2B543 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				768D89D41B0CB33900A2B543 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		768D89FD1B0CBA4A00A2B543 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				768D89FE1B0CBAED00A2B543 /* GESArticleViewController.swift */,
+				768D8A001B0CBB5400A2B543 /* GESPopularViewController.swift */,
+				768D8A061B0CBBA700A2B543 /* GESFavoriteViewController.swift */,
+				768D8A041B0CBB8A00A2B543 /* GESBlogListViewController.swift */,
+				768D8A021B0CBB7300A2B543 /* GESSettingViewController.swift */,
+				768D8A0E1B0CC64500A2B543 /* GESDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		768D8A081B0CC1BD00A2B543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				768D8A091B0CC1DA00A2B543 /* UITableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		768D8A091B0CC1DA00A2B543 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				768D8A0A1B0CC21100A2B543 /* GESArticleTableViewCell.swift */,
+				768D8A0B1B0CC21200A2B543 /* GESArticleTableViewCell.xib */,
+			);
+			path = UITableViewCell;
 			sourceTree = "<group>";
 		};
 		A64C0F3C17DA4DC4B97E9520 /* Frameworks */ = {
@@ -185,6 +237,7 @@
 		768D89C71B0CB33900A2B543 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GES;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Yuta Hiroto";
 				TargetAttributes = {
@@ -223,6 +276,7 @@
 			files = (
 				768D89DC1B0CB33900A2B543 /* Main.storyboard in Resources */,
 				768D89E11B0CB33900A2B543 /* LaunchScreen.xib in Resources */,
+				768D8A0D1B0CC21200A2B543 /* GESArticleTableViewCell.xib in Resources */,
 				768D89DE1B0CB33900A2B543 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768D89D91B0CB33900A2B543 /* SecondViewController.swift in Sources */,
+				768D8A071B0CBBA700A2B543 /* GESFavoriteViewController.swift in Sources */,
+				768D8A0F1B0CC64500A2B543 /* GESDetailViewController.swift in Sources */,
+				768D8A011B0CBB5400A2B543 /* GESPopularViewController.swift in Sources */,
+				768D8A031B0CBB7300A2B543 /* GESSettingViewController.swift in Sources */,
+				768D8A051B0CBB8A00A2B543 /* GESBlogListViewController.swift in Sources */,
 				768D89D51B0CB33900A2B543 /* AppDelegate.swift in Sources */,
-				768D89D71B0CB33900A2B543 /* FirstViewController.swift in Sources */,
+				768D8A0C1B0CC21200A2B543 /* GESArticleTableViewCell.swift in Sources */,
+				768D89FF1B0CBAED00A2B543 /* GESArticleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,9 +463,14 @@
 			baseConfigurationReference = 4C61D21D76EF716067E708B9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Gesso/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gesso/Gesso-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -415,9 +479,13 @@
 			baseConfigurationReference = A3DED6E8741AA349ADBBCF58 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Gesso/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gesso/Gesso-Bridging-Header.h";
 			};
 			name = Release;
 		};
